@@ -1,0 +1,292 @@
+#header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 5px solid black;
+}
+
+#header #sublogo >img {
+    height: 40px;
+}
+
+#header #sublogo {
+    display: flex;
+    align-items: center;
+}
+
+#header #category > ul {
+    display: flex;
+    align-items: center;
+}
+
+#header #category > ul > .sep {
+    padding: 0;
+    width: 3px;
+    font-size: 12px;
+    height: 22px;
+    background-color: #000;
+}
+
+#header #category > ul > li {
+    display: inline-block;
+    font-size: 1.875rem;
+    line-height: 40px;
+    margin: 5px 0;
+    padding: 0px 30px;
+    font-family: 'Noto Sans KR',serif;
+}
+
+
+#header #category > ul > li:hover{
+    background-color:black;
+    color: #fff;
+}
+
+.section01 {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 30px 0 30px 0;
+    text-align: center;
+    border-bottom: 1px dotted #333333
+}
+
+.section01 .righttext .texttitle {
+    margin: 20px auto;
+    font-size: 50px;
+    line-height: 100px;
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+
+.section01 .righttext .spacer {
+    width: 100px;
+    height: 2px;
+    background: #333333;
+    margin: 0 auto;
+}
+
+.section01 .righttext .textinfo {
+    margin: 30px auto;
+    font-size: 130%;
+    line-height: 180%;
+}
+
+.style {
+    max-width: 1000px;
+    margin: 30px auto;
+    height: 750px;
+    border-bottom: 1px dotted #333333;
+}
+
+.style .title {
+    margin: 80px auto 20px auto;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 5px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.style .philosophy {
+    position: relative;
+    width: 33.3%;
+    margin: 20px auto;
+    float: left;
+    text-align: center;
+}
+
+.style .philosophy img {
+    width: 266px;
+    height: 377.445px;
+    left: 0px;
+}
+
+.style .philosophy .texttitle {
+    margin: 20px auto;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.style .philosophy .spacer {
+    position: relative;
+    width: 100px;
+    height: 2px;
+    background: #333;
+    margin: 0 auto;
+}
+
+.style .philosophy .subtitle {
+    margin: 20px auto 30px auto;
+    font-size: 16px;
+}
+
+.objetdetail {
+    /* clear: both;
+    position: relative;
+    width: 100%; */
+    max-width: 1000px;
+    margin: 30px auto;
+    border-bottom: 1px dotted #333333;
+}
+
+.objetdetail .title {
+    margin: 80px auto 20px auto;
+    font-size: 35px;
+    line-height: 60px;
+    letter-spacing: 5px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.objetdetail .subtitle {
+    width: 95%;
+    margin: 20px auto 30px auto;
+    background: #000;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+
+.objetdetail .texts {
+    position: relative;
+    width: 50%;
+    margin: 20px auto;
+    float: left;
+    text-align: center;
+}
+
+.objetdetail .texts .texttitle {
+    margin: 40px auto;
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+
+.objetdetail .texts .spacer {
+    width: 100px;
+    height: 2px;
+    background: #333333;
+    margin: 0 auto;
+}
+
+.objetdetail .texts .payments {
+    clear: both;
+    position: relative;
+    margin: 10px auto;
+    width: 100%;
+    min-height: 180px;
+}
+
+.objetdetail img {
+    width: 950px;
+    margin: 30px auto;
+    height: 620px;
+}
+
+.objetdetail .textinfo {
+    width: 95%;
+    margin: 30px auto;
+    font-size: 110%;
+}
+
+.righttext {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 30px 0 30px 0;
+    text-align: center;
+    border-bottom: 1px dotted #333333; 
+}
+
+.righttext .texttitle {
+    margin: 20px auto;
+    font-size: 50px;
+    line-height: 100px;
+    letter-spacing: 5px;
+    font-weight: 800;
+}
+
+.righttext .spacer {
+    width: 100px;
+    height: 2px;
+    background: #333333;
+    margin: 0 auto;
+}
+
+.righttext img {
+    position: relative;
+    width: 70%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+.delivery {
+    max-width: 1000px;
+    margin: 30px auto;
+    border-bottom: 1px dotted #333333;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.delivery .text .texttitle {
+    margin: 20px auto;
+    font-size: 50px;
+    line-height: 100px;
+    letter-spacing: 5px;
+    font-weight: 800;
+    
+}
+
+.delivery .text .spacer {
+    position: relative;
+    width: 100px;
+    height: 2px;
+    background: #333333;
+    margin: 0 auto;
+}
+
+.delivery .text .designer {
+    margin: 40px auto 80px auto;
+    line-height: 30px;
+    font-size: 25px;
+}
+
+.delivery .designer .infor {
+    position: relative;
+    margin: 20px auto;
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 25px;
+}
+
+.delivery .designer .spacer {
+    position: relative;
+    width: 30px;
+    height: 1px;
+    background: #333333;
+    margin: 0 auto;
+}
+
+.delivery .designer .paytitle {
+    margin: 30px auto;
+    min-height: 180px;
+}
+
+.viewbtn {
+    color: #000;
+    width: 60px;
+    font-size: 30px;
+    transition: all 0.3s;
+    padding: 10px 30px 10px 30px;
+    border: 3px solid #000;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
